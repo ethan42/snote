@@ -1,0 +1,8 @@
+project: ethan42/snote
+target: debian
+image: ethan42/snote:3
+cmds:
+  - cmd: /snote subject @@
+    extensions:
+      capabilities: []
+    env: {}
